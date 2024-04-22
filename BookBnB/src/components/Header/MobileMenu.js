@@ -14,7 +14,7 @@ export default function MobileMenu({hide, navLinks}) {
 
     function getIcon(text){
         if(text === "Book A Home"){return <HomeIcon/>}
-        if(text === "My Booking"){return <CalendarMonthIcon/>}
+        if(text === "Current Booking"){return <CalendarMonthIcon/>}
         if(text === "Update Profile"){return <ManageAccountsIcon/>}
     }
     return (

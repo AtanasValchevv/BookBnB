@@ -20,7 +20,7 @@ export default function Header() {
         nav: "/book-home"
     },
     {
-        text: "My Booking",
+        text: "Current Booking",
         nav: "/my-booking"
     },
     {
@@ -31,7 +31,7 @@ export default function Header() {
     return (
         <>
             <StyledHeader>
-                <Link to="/my-booking"><h1>Birdhouse</h1></Link>
+                <Link to="/my-booking"><h1>BookBnB</h1></Link>
                 {mediaQuery ?  <MenuIcon onClick={()=>{setShowMobileMenu(!showMobileMenu)}}/> :
                 <>
                     {navLinks.map(({text, nav})=> <Link key={text} to={nav}>{text}</Link>)}
