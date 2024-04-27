@@ -5,9 +5,9 @@ const GlobalStyles = createGlobalStyle`
 
     ${normalize}
     :root{
-        --dark: #4C5454;
-        --primary: #FF715B;
-        --background: #FCDFA6 ;
+        --dark: #424242;
+        --primary: #9ad1fa;
+        --background: #9ad1fa ;
         --secondary: #1EA896;
     }
 

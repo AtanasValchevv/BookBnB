@@ -22,7 +22,7 @@ const Overlay = styled(motion.div)`
 
 const Button = styled.button`
     background-color: ${props => 
-    props.submit ?  "#55D6BE" : 
+    props.submit ?  "#9ad1fa" : 
     props.cancel ? "var(--primary)" : "#FFFFFF"};
     border: 1px solid var(--dark);
     border-radius: 5px;
