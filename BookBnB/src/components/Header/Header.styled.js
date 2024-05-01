@@ -61,7 +61,7 @@ const StyledMobileMenu = styled(motion.div)`
   }
 
   h4{
-    color: var(--primary);
+    color: #000000;
   }
 
   @media (max-width: 430px){
