@@ -9,6 +9,7 @@ import { getStorage } from "firebase/storage";
 const firebaseConfig = {
   apiKey: "AIzaSyAr_fYcW5L4vprK74iHmairSa3opDv4-o4",
   authDomain: "bookbnb-afcdf.firebaseapp.com",
+  databaseURL: "https://bookbnb-afcdf-default-rtdb.firebaseio.com",
   projectId: "bookbnb-afcdf",
   storageBucket: "bookbnb-afcdf.appspot.com",
   messagingSenderId: "817630724052",
